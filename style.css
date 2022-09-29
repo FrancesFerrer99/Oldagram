@@ -28,19 +28,7 @@ h3 {
     font-size: 13px;
 }
 
-/*Utility classes*/
-.small{
-    width: 25px;
-    height: 25px;
-}
 
-.bold{
-    font-weight: 900;
-}
-
-.default-padding{
-    padding: 30px 20px;
-}
 
 /*Other*/
 header img{
@@ -79,4 +67,19 @@ header img{
     border-radius: 50%;
     width: 60px;
     height: 60px;
+}
+
+/*Utility classes*/
+.small{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.bold{
+    font-weight: 900;
+}
+
+.default-padding{
+    padding: 30px 20px;
 }
