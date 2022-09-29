@@ -74,8 +74,10 @@ for( let i = 0; i<heartsIcons.length; i++){
 
 for( let i = 0; i <imageEl.length; i++){
     imageEl[i].addEventListener('dblclick', ()=>{
-        if(!posts[i].liked)
+        if(!posts[i].liked){
             like(i)
+        }
+            
         else
             removeLike(i)
         rerender(likesEl[i], i)
